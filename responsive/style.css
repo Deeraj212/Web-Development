@@ -1,13 +1,3 @@
-/* Challenge
-
-   Make the navigation layout work
-   on both mobile and large screens.
-
-   Mobile-first, so mobile styles first,
-   then add the large screen styles
-   inside the existing media query
-
-*/
 
 *,
 *::before,
@@ -116,10 +106,7 @@ header {
   transform: translateY(3px);
 }
 
-/* made changes here from video
-   to make it more accessible.
-   
-   Works the same :) */
+
 .nav {
   visibility: hidden;
   height: 0;
@@ -169,10 +156,36 @@ a{
 
 .sidebar {
   padding: 1em;
+  margin-top: -1.4rem;
   text-align: center;
   color: #fff;
-  background-color: #136c72;
+  
 }
+
+
+.hero-html{
+    background-color: orangered;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #cccccc,-20px -20px 60px #ffffff;
+}
+
+.hero-css{
+    background-color: blue;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #cccccc;
+}
+
+.hero-js{
+    background-color: #dfdf19;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #cccccc;
+}
+
 
 @media (min-width: 800px) {
   .nav-toggle {
