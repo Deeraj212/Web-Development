@@ -186,6 +186,15 @@ a{
     box-shadow: 20px 20px 60px #cccccc;
 }
 
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    padding: 4rem;
+}
+
 
 @media (min-width: 800px) {
   .nav-toggle {
